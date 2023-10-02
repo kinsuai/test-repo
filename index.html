@@ -1,0 +1,65 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link
+			rel="stylesheet"
+			href="index.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<form
+				action="secret.html">
+				<fieldset>
+					<legend>Personuppgifter</legend>
+
+					<input
+						type="text"
+						placeholder="Ange användarnamn"
+						class="inmatning1"
+						id="username" />
+					<br />
+
+					<input
+						type="password"
+						placeholder="Ange Lösenord"
+						class="inmatning2"
+						id="password" />
+					<br />
+
+					<button
+						class="skicka"
+						onclick="login();"
+						id="button">
+						Logga in
+					</button>
+					<br />
+					<input
+						type="submit"
+						value="Avbryta"
+						class="avbryt"
+						onclick="window.location.href='index.html';" />
+					<br /><br />
+					<div class="chkbox">
+						<input
+							type="checkbox"
+							name=""
+							id=""
+							class="chkbx" />
+						<label for="">kom ihåg mig</label>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
