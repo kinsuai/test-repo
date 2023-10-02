@@ -1,0 +1,73 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+h1
+{
+    text-align: center;
+}
+.container
+{
+    margin:50px auto;
+    width:900px;
+    border:1px solid black;
+    
+}
+.personuppgifter{
+
+    width:600px;
+    margin:50px auto;
+}
+
+
+.input
+{
+font-weight: 600;
+ display:flex; 
+ flex-direction: row; 
+ align-items:center;
+ justify-content:flex-end;
+ margin-bottom:5px;
+ width:700px;
+ overflow: hidden;
+ 
+ 
+}
+label
+{
+    width:360px;
+    margin-right:5px;
+    text-align: left;
+ 
+    
+}
+
+input
+{
+    align-items:left;
+    height:40px;
+    max-width:300px;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+fieldset{
+    border:10px solid rgb(144, 8, 144);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.button
+{
+    background-color: green;
+    color:white;
+    width: 180px;
+    height:40px;
+    font-size: 24px;
+    border-radius: 5px;
+
+}

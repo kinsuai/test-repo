@@ -1,0 +1,106 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+            <link rel="stylesheet" href="formulär.css">
+		<title>Formulär</title>
+	</head>
+	<body>
+		<h1>Anmäl dig till vår nyhetsbrev</h1>
+        <div class="container">
+		<form
+			action=""
+			method="post">
+			<fieldset>
+				
+				<legend>Personuppgifter</legend>
+				<div class="personuppgifter">
+				<div class="input">
+				<label for="">Förnamn</label>
+				<input
+					type="text"
+					name="firstname"
+					id="firstname"
+					class="input" required/> 
+				</div>
+				<div class="input">
+				<label>Efternamn</label>
+				<input
+					type="text"
+					name="efternamn"
+					class="efternamn" /> 
+				</div>
+				<div class="input">
+                <label>E-postadress</label>
+				<input
+					type="text"
+					name="email"
+					class="email" /> 
+				</div>
+				<div class="input">
+					<label>Personnummer</label>
+					<input
+						type="text"
+						name="personnummer"
+						class="input" />
+					</div>
+					<div class="input">
+						<label>Lösenord</label>
+				<input
+					type="password"
+					name="password"
+					class="input" />
+				</div>	
+				</div>
+			</fieldset>
+			<fieldset>
+<legend> &nbsp; Vad är roligast? &nbsp; </legend>
+<div class="input">
+<label for="">Programmering 1</label>
+<input type="radio" name="fråga1" id="">
+</div>
+<div class="input">
+<label for="">Webbutveckling 1</label>
+<input type="radio" name="fråga2" id="">
+</div>
+<div class="input">
+<label for="">Matematik</label>
+<input type="radio" name="fråga3" id="">
+</div>
+
+			</fieldset>
+
+			<fieldset>
+				<legend> &nbsp; Vad vill du lära dig mer om? &nbsp; </legend>
+				<div class="input">
+				<label for="">PHP</label>
+				<input type="checkbox" name="fråga1" id="">
+			</div>
+			<div class="input">
+				<label for="">HTML5</label>
+				<input type="checkbox" name="fråga2" id="">
+			</div>
+			<div class="input">
+				<label for="">JavaScript</label>
+				<input type="checkbox" name="fråga3" id="">
+			</div>
+			<div class="input">
+				<label for="">Bedöm din insats(1-5)</label>
+				<input type="text" name="fråga3" id="">
+			</div>
+							</fieldset>
+
+							<input type="button" value="Prenumerera" class="button">
+
+		</form>
+    </div>
+	</body>
+</html>

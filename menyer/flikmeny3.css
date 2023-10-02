@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+}
+.flik{
+   display:none;
+    padding:100px;
+}
+.tabs .content1,.content2{
+    position:absolute;
+    top:70px;
+    left:0px;
+    display:none;
+    padding:50px;
+    width: 250px;
+    border:1px solid tomato;
+    word-wrap: break-word;
+}
+.tabs
+{
+display:inline-block;
+background-color: beige;
+width:75px;
+height:30px;
+text-align: center;
+padding:20px;
+    
+}
+.tabs:active{
+    background-color: blueviolet;
+}
+
+
+#flik1:checked~.content1
+{
+    display: block;
+    color:green;
+    font-size: 20px;
+}
+#flik2:checked~.content2
+{
+    display: block;
+    color:red;
+    font-size: 20px;
+}

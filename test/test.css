@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+
+}
+.huvudmeny {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+    
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .undermeny
+  {
+    display: none;
+    position:absolute;
+    top:50px;
+    left: 5px;
+    list-style-type: none;
+   
+  }
+  .undermeny a{
+    
+    text-decoration: none;
+    background-color: #111;
+
+  }
+  .huvudmeny:hover .undermeny{
+    display: block;
+
+  }
+  .divi{
+    height:400px;
+    width:900px;
+    background-color: aqua;
+  }
+  marquee{
+    background-color: rgb(170, 255, 0);
+
+  }

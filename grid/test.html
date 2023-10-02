@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: rgb(159, 47, 67);
+        }
+        .wrapper{
+            display:grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;
+            background-color: rgb(31, 48, 234);
+            grid-column-gap:10px;
+            grid-row-gap:10px;
+            width:1000px;
+            height:320px;
+        }
+        .wrapper >div{
+            background-color: rgb(102, 186, 238);
+            text-align: center;
+            font-size:36px;
+            padding:40px;
+        }
+        .grid-element-1{
+            grid-column-start: 1;
+            grid-column-end:4;
+
+        }
+        .grid-element-2{
+            grid-row-start: 2;
+            grid-row-end: 4;
+
+        }
+        .grid-element-3{
+            grid-row-start: 2;
+            grid-row-end:  3;
+
+        }
+        .grid-element-5{
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+    </style>
+    <title>Document</title>
+  
+</head>
+<body>
+    <div class="wrapper">
+        <div class="grid-element-1">Header</div>
+        <div class="grid-element-2">Menu</div>
+        <div class="grid-element-3">Main</div>
+        <div class="grid-element-4">Right</div>
+        <div class="grid-element-5">Footer</div>
+        
+    </div>
+</body>
+</html>
