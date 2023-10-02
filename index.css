@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 body{
-background-color: crimson;
+background:url(/bilder/wolf.webp);
 font-size: 36px;
 text-transform: uppercase;
 background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Yellowtail', cursive;
+background-position: center;
 }
 .wrapper{
     width:600px;
